@@ -1,0 +1,23 @@
+.App {
+  text-align: center;
+}
+
+.no-videos {
+  width: 600px;
+  height: 380px;
+  margin: 20px auto;
+  background-color: black;
+  opacity: 0.5;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+}
+.progress {
+  width: 50%;
+  margin: 20px auto;
+}
+.progressbar {
+  justify-content: start;
+}

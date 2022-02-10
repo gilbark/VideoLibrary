@@ -1,0 +1,33 @@
+.carousel {
+  width: 600px;
+  height: 380px;
+  margin: 20px auto;
+  background-color: black;
+}
+
+.carousel-control-prev {
+  height: 300px;
+}
+
+.carousel-control-next {
+  height: 300px;
+}
+
+/* Carousel button states */
+.carousel .carousel-control-prev-icon {
+  opacity: 0;
+  transition: opacity 200ms ease-in-out;
+}
+
+.carousel:hover .carousel-control-prev-icon {
+  opacity: 1;
+}
+
+.carousel .carousel-control-next-icon {
+  opacity: 0;
+  transition: opacity 200ms ease-in-out;
+}
+
+.carousel:hover .carousel-control-next-icon {
+  opacity: 1;
+}
